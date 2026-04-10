@@ -8,13 +8,13 @@
 
   body {
     font-family: 'DM Sans', sans-serif;
-    background: #f7f5f0;
-    color: #1a1a18;
+    background: #f9f8f6;
+    color: #0d0d0d;
   }
 
   /* HERO */
   .hero {
-    background: #1a2e1e;
+    background: #0d0d0d;
     padding: 5rem 2rem 4rem;
     text-align: center;
     position: relative;
@@ -40,7 +40,7 @@
     display: inline-block;
     background: rgba(120,180,100,0.15);
     border: 0.5px solid rgba(120,180,100,0.35);
-    color: #a8d58c;
+    color: #c9a84c;
     font-size: 12px;
     font-weight: 500;
     letter-spacing: 0.12em;
@@ -52,7 +52,7 @@
   .hero h1 {
     font-family: 'DM Serif Display', serif;
     font-size: clamp(2.4rem, 6vw, 4rem);
-    color: #f7f5f0;
+    color: #ffffff;
     line-height: 1.1;
     margin-bottom: 1.25rem;
     max-width: 640px;
@@ -61,7 +61,7 @@
   }
   .hero h1 em {
     font-style: italic;
-    color: #a8d58c;
+    color: #c9a84c;
   }
   .hero p {
     color: rgba(247,245,240,0.65);
@@ -78,8 +78,8 @@
     justify-content: center;
   }
   .btn-primary {
-    background: #a8d58c;
-    color: #1a2e1e;
+    background: #c9a84c;
+    color: #0d0d0d;
     font-family: 'DM Sans', sans-serif;
     font-size: 14px;
     font-weight: 500;
@@ -89,10 +89,10 @@
     cursor: pointer;
     transition: background 0.2s;
   }
-  .btn-primary:hover { background: #bce09e; }
+  .btn-primary:hover { background: #d9bb68; }
   .btn-outline {
     background: transparent;
-    color: #f7f5f0;
+    color: #ffffff;
     font-family: 'DM Sans', sans-serif;
     font-size: 14px;
     font-weight: 400;
@@ -106,8 +106,8 @@
 
   /* TRUST BAR */
   .trust-bar {
-    background: #fff;
-    border-bottom: 0.5px solid #e8e6e0;
+    background: #ffffff;
+    border-bottom: 0.5px solid #e8e6e2;
     padding: 1rem 2rem;
     display: flex;
     justify-content: center;
@@ -119,13 +119,13 @@
     align-items: center;
     gap: 8px;
     font-size: 13px;
-    color: #5a5a52;
+    color: #5a5a55;
     font-weight: 400;
   }
   .trust-dot {
     width: 8px; height: 8px;
     border-radius: 50%;
-    background: #a8d58c;
+    background: #c9a84c;
     flex-shrink: 0;
   }
 
@@ -136,18 +136,18 @@
     font-weight: 500;
     letter-spacing: 0.14em;
     text-transform: uppercase;
-    color: #6a7d60;
+    color: #a08030;
     margin-bottom: 0.6rem;
   }
   .section-title {
     font-family: 'DM Serif Display', serif;
     font-size: clamp(1.7rem, 4vw, 2.4rem);
-    color: #1a2e1e;
+    color: #0d0d0d;
     line-height: 1.2;
     margin-bottom: 0.75rem;
   }
   .section-sub {
-    color: #6a6a60;
+    color: #6a6a62;
     font-size: 1rem;
     font-weight: 300;
     line-height: 1.7;
@@ -162,16 +162,16 @@
     gap: 16px;
   }
   .service-card {
-    background: #fff;
-    border: 0.5px solid #e0ddd4;
+    background: #ffffff;
+    border: 0.5px solid #e2e0dc;
     border-radius: 14px;
     padding: 1.5rem 1.25rem;
     cursor: pointer;
     transition: border-color 0.2s, transform 0.15s;
     position: relative;
   }
-  .service-card:hover { border-color: #a8d58c; transform: translateY(-2px); }
-  .service-card.active { border: 1.5px solid #6aaa48; }
+  .service-card:hover { border-color: #c9a84c; transform: translateY(-2px); }
+  .service-card.active { border: 1.5px solid #c9a84c; }
   .service-icon {
     width: 42px; height: 42px;
     border-radius: 10px;
@@ -179,35 +179,35 @@
     font-size: 18px;
     margin-bottom: 1rem;
   }
-  .icon-green { background: #eaf4e2; }
-  .icon-teal { background: #e1f5ee; }
-  .icon-amber { background: #faeeda; }
-  .icon-blue { background: #e6f1fb; }
+  .icon-green { background: #f5f0e8; }
+  .icon-teal { background: #f0ede8; }
+  .icon-amber { background: #fdf6e8; }
+  .icon-blue { background: #f5f3ee; }
 
   .service-card h3 {
     font-family: 'DM Serif Display', serif;
     font-size: 1.05rem;
-    color: #1a2e1e;
+    color: #0d0d0d;
     margin-bottom: 0.4rem;
     font-weight: 400;
   }
   .service-card p {
     font-size: 13px;
-    color: #6a6a60;
+    color: #6a6a62;
     line-height: 1.6;
     font-weight: 300;
   }
   .service-detail {
     margin-top: 1.25rem;
     padding-top: 1.25rem;
-    border-top: 0.5px solid #e8e6e0;
+    border-top: 0.5px solid #e8e6e2;
     display: none;
   }
   .service-card.active .service-detail { display: block; }
   .checklist { list-style: none; }
   .checklist li {
     font-size: 12.5px;
-    color: #4a5a42;
+    color: #3a3a32;
     padding: 3px 0;
     padding-left: 1.25rem;
     position: relative;
@@ -215,14 +215,14 @@
   .checklist li::before {
     content: '✓';
     position: absolute; left: 0;
-    color: #6aaa48;
+    color: #c9a84c;
     font-size: 11px;
     font-weight: 500;
   }
   .price-tag {
     display: inline-block;
-    background: #eaf4e2;
-    color: #3b6d11;
+    background: #fdf6e8;
+    color: #7a5c10;
     font-size: 12px;
     font-weight: 500;
     padding: 4px 10px;
@@ -231,10 +231,10 @@
   }
 
   /* WHY US */
-  .why-section { background: #1a2e1e; padding: 4rem 2rem; }
+  .why-section { background: #0d0d0d; padding: 4rem 2rem; }
   .why-inner { max-width: 900px; margin: 0 auto; }
-  .why-section .section-label { color: #a8d58c; }
-  .why-section .section-title { color: #f7f5f0; margin-bottom: 2.5rem; }
+  .why-section .section-label { color: #c9a84c; }
+  .why-section .section-title { color: #ffffff; margin-bottom: 2.5rem; }
   .why-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -245,19 +245,19 @@
     overflow: hidden;
   }
   .why-item {
-    background: #1a2e1e;
+    background: #0d0d0d;
     padding: 1.75rem 1.5rem;
   }
   .why-num {
     font-family: 'DM Serif Display', serif;
     font-size: 2rem;
-    color: #a8d58c;
+    color: #c9a84c;
     margin-bottom: 0.5rem;
   }
   .why-item h4 {
     font-size: 14px;
     font-weight: 500;
-    color: #f7f5f0;
+    color: #ffffff;
     margin-bottom: 0.4rem;
   }
   .why-item p {
@@ -276,7 +276,7 @@
   }
   .cta-section .section-title { text-align: center; }
   .cta-section p {
-    color: #6a6a60;
+    color: #6a6a62;
     font-size: 1rem;
     font-weight: 300;
     line-height: 1.7;
@@ -284,8 +284,8 @@
   }
   .cta-buttons { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
   .btn-dark {
-    background: #1a2e1e;
-    color: #f7f5f0;
+    background: #0d0d0d;
+    color: #ffffff;
     font-family: 'DM Sans', sans-serif;
     font-size: 14px;
     font-weight: 500;
@@ -296,7 +296,7 @@
   }
   .btn-ghost {
     background: transparent;
-    color: #1a2e1e;
+    color: #0d0d0d;
     font-family: 'DM Sans', sans-serif;
     font-size: 14px;
     font-weight: 400;
@@ -308,18 +308,18 @@
 
   /* FOOTER */
   .footer {
-    background: #f0ede6;
-    border-top: 0.5px solid #e0ddd4;
+    background: #f0ede8;
+    border-top: 0.5px solid #e2e0dc;
     padding: 2rem;
     text-align: center;
     font-size: 13px;
     color: #8a8a80;
   }
-  .footer strong { color: #1a2e1e; font-weight: 500; }
+  .footer strong { color: #0d0d0d; font-weight: 500; }
 
   hr.divider {
     border: none;
-    border-top: 0.5px solid #e0ddd4;
+    border-top: 0.5px solid #e2e0dc;
   }
 </style>
 </head>
